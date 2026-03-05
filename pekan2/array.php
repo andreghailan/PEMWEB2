@@ -10,5 +10,11 @@ $ar_buah[] = 'semangka';
 foreach ($ar_buah as $buah){
     echo $buah . '<br>';
 }
-?>
 
+echo '<hr>';
+echo '---Cetak Pasangan Key & Value---';
+
+ foreach ($ar_buah as $id => $buah){
+    echo '<br>buah id '.$id.' = '.$buah;
+ }
+?>

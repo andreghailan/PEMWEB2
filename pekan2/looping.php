@@ -10,7 +10,7 @@ for ($no = 1; $no <= 10; $no++) {
 echo '<br>';
 ?>
 
-===Cetak Angka 1 s/d 1===
+===Cetak Angka 10 s/d 1===
 <?php
 
 for ($no = 10; $no >= 1; $no--) {
